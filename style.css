@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.header {
+    background-color: black; /* Green background color */
+    color: white;
+    padding: 20px; /* Add some padding */
+    width: 100%; /* Cover entire width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center;
+}
+
+.options button {
+    margin: 10px;
+    padding: 0; /* remove default button padding */
+    background: none; /* remove default button background */
+    border: none; /* remove default button border */
+    cursor: pointer;
+}
+
+.options button img {
+    width: 150px; /* Set the width of the shrunken image */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#result {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    /* box-sizing: border-box; */
+    text-align: center;
+    margin-top: 5%;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 10%; */
+}
+
+#scores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    font-size: 175%;
+    
+}
